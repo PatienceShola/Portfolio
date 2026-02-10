@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Patience Makhananisa | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  
+  <header class="header">
+    <img src="images/homepage.jpg" alt="Profile photo of Patience" class="profile-photo slide-in-left">
+    <div class="header-right slide-in-right">
+      <h1>Patience Makhananisa</h1>
+      <p>Admin & Data Support • Sales & Marketing • Web Development • Project Management</p>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  
+  <section class="section" id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <p>
+        I’m a versatile and motivated professional with experience across 
+        <strong>administration, sales support, project management and software development</strong>, with a strong focus on building practical, real world skills.
+      </p>
+      <p>
+        My background in <strong>administrative and data support</strong> has shaped my ability to stay organized, manage documentation, assist with reporting, and support daily operations effectively. Through <strong>sales and marketing roles</strong>, I’ve developed strong communication skills, client support experience, and the ability to adapt quickly in fast-paced environments.
+      </p>
+      <p>
+        Alongside my work experience, I am actively building my <strong>technical foundations</strong> in <strong>HTML, CSS, JavaScript, and developer fundamentals</strong>, applying what I learn through hands on projects and continuous practice. I enjoy understanding how systems work, improving processes, and learning how technology can support both business and people.
+      </p>
+      <p>
+        My goal is to continue growing by learning and getting better at the skills I already have, while staying open to new knowledge and responsibilities. I’m a teachable, adaptable professional who values feedback, asks questions, and takes initiative to improve. Wherever I’m placed, I aim to learn quickly, contribute meaningfully, and grow steadily over time.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS & CONTACT -->
+  
+  <section class="section" id="skills-contact">
+    <h2>Skills & Contact</h2>
+    <div class="skills-contact-grid">
+      <!-- SKILLS -->
+      
+      <div class="skills-box">
+        <h3>Skills</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <span>Admin & Data Support</span>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="96"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <span>Sales & Marketing</span>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="93"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <span>HTML, CSS & JavaScript (Web & App Dev)</span>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="88"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <span>Project Management</span>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="75"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT -->
+      
+      <div class="contact-box">
+        <h3>Contact Me</h3>
+        <div class="contact-grid">
+          <div class="contact-card">Email: patiencemablemakhananisa@gmail.com</div>
+          <div class="contact-card">Phone: +27 72 499 2575</div>
+          <div class="contact-card">Location: South Africa</div>
+        </div>
+        <button id="interviewBtn">Request Interview</button>
+        <button id="cvBtn">Download CV</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CV Modal -->
+  
+  <div id="cvContent" class="cv-modal">
+    <div class="cv-modal-content">
+      <span class="cv-close">&times;</span>
+      <h3>Select a CV</h3>
+      <div class="cv-links">
+        <div class="cv-item">
+          <span>Admin & Data Support</span>
+          <div class="cv-actions">
+            <a href="pdfs/cv-admin.pdf" target="_blank">View</a>
+            <a href="pdfs/cv-admin.pdf" download>Download</a>
+          </div>
+        </div>
+        <div class="cv-item">
+          <span>Sales & Marketing</span>
+          <div class="cv-actions">
+            <a href="pdfs/cv-sales.pdf" target="_blank">View</a>
+            <a href="pdfs/cv-sales.pdf" download>Download</a>
+          </div>
+        </div>
+        <div class="cv-item">
+          <span>Junior Web Developer</span>
+          <div class="cv-actions">
+            <a href="pdfs/cv-tech.pdf" target="_blank">View</a>
+            <a href="pdfs/cv-tech.pdf" download>Download</a>
+          </div>
+        </div>
+        <div class="cv-item">
+          <span>Project Management</span>
+          <div class="cv-actions">
+            <a href="pdfs/cv-pm.pdf" target="_blank">View</a>
+            <a href="pdfs/cv-pm.pdf" download>Download</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INTERVIEW FORM MODAL -->
+  
+  <div id="interviewForm" class="interview-form">
+    <div class="form-container">
+      <span id="closeForm" class="close-btn">×</span>
+      <h3>Request an Interview</h3>
+      <form action="https://formspree.io/f/xwvnpkza" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Request</button>
+      </form>
+      <p id="formResponse"></p>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  
+  <section class="section" id="experience">
+    <h2>Experience</h2>
+    <div class="experience-grid">
+      <div class="experience-card">
+        <h3>FNB App Academy – Developer Intern</h3>
+        <p class="duration">2025</p>
+        <ul>
+          <li>Built web and app projects using HTML, CSS, and JavaScript</li>
+          <li>Implemented UI/UX designs</li>
+          <li>Worked on interactive features and modals</li>
+        </ul>
+      </div>
+      <div class="experience-card">
+        <h3>Water Services – Admin Assistant</h3>
+        <p class="duration">2022–2023</p>
+        <ul>
+          <li>Assisted with reporting and performance tracking</li>
+          <li>Managed emails, calendars, and documentation</li>
+          <li>Maintained organized digital and physical filing</li>
+        </ul>
+      </div>
+      <div class="experience-card">
+        <h3>TK Marketings – Sales Assistant</h3>
+        <p class="duration">2017–2019</p>
+        <ul>
+          <li>Supported sales operations and client follow-ups</li>
+          <li>Tracked leads and implemented marketing campaigns</li>
+          <li>Handled customer communication strategies</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  
+  <section class="section" id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Sales & Customer Support Tools</h3>
+        <ul class="project-features">
+          <li>Client follow-ups and relationship management</li>
+          <li>Lead tracking and sales support workflows</li>
+          <li>Customer communication and basic reporting</li>
+        </ul>
+      </div>
+      
+      <div class="project-card">
+        <h3>Admin & Data Systems</h3>
+        <ul class="project-features">
+          <li>Accurate data capturing and record keeping</li>
+          <li>Reporting support and data organisation</li>
+          <li>Document management and administrative systems</li>
+        </ul>
+      </div>
+      
+      <div class="project-card">
+        <h3>Web Development Projects</h3>
+        <ul class="project-features">
+          <li>Personal portfolio website with responsive layout</li>
+          <li>Dark theme UI, animations, and modal interactions</li>
+          <li>Mini web applications using HTML, CSS & JavaScript</li>
+        </ul>
+      </div>
+      
+      <div class="project-card">
+        <h3>Project Management Projects</h3>
+        <ul class="project-features">
+          <li>Project planning, task breakdown, and scheduling</li>
+          <li>Task prioritization and progress tracking</li>
+          <li>Basic reporting and stakeholder communication</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- APP & WEBSITE PROJECTS -->
+  
+  <section class="section" id="app-projects">
+    <h2>App & Websites Projects</h2>
+    <div class="app-slider">
+      <div class="app-track">
+        <div class="app-card">
+          <h3>Website Business</h3>
+          <ul>
+            <li>Is fully responsive</li>
+            <li>Built with HTML, CSS & JavaScript</li>
+            <li>Has a functional cart clearance</li>
+            <li>Built with fully functional links</li>
+          </ul>
+          <a href="https://houseofkonnexx.netlify.app/" target="_blank" class="view-project">View Project</a>
+        </div>
+        
+        <div class="app-card">
+          <h3>Digital Clock</h3>
+          <ul>
+            <li>A digital clock built using HTML, CSS and JavaScript.</li>
+            <li>Displays the current time in a 12-hour format AM/PM notation.</li>
+            <li>Updates every second, ensuring accurate timekeeping.</li>
+          </ul>
+          <a href="https://shodigitalclock.netlify.app" target="_blank" class="view-project">View Project</a>
+        </div>
+        
+        <div class="app-card">
+          <h3>FNB Academy Marvel</h3>
+          <ul>
+            <li>An app built with HTML and styled using CSS</li>
+            <li>Made responsive with JavaScript</li>
+            <li>Flows well with sliding pictures</li>
+          </ul>
+          <a href="https://fnb-avengers-app-marvel.netlify.app/" target="_blank" class="view-project">View Project</a>
+        </div>
+        
+        <div class="app-card">
+          <h3>Responsive Contact Form</h3>
+          <ul>
+            <li>A responsive contact form built with HTML and styled using CSS</li>
+            <li>Designed to adapt seamlessly across various devices</li>
+          </ul>
+          <a href="https://shoresponsiveform.netlify.app" target="_blank" class="view-project">View Project</a>
+        </div>
+        
+        <div class="app-card">
+          <h3>Store Website</h3>
+          <ul>
+            <li>Created a multi-page black & green styled store with product grids.</li>
+            <li>Included shopping cart, categories, and verse-of-the-day feature</li>
+            <li>Images included sized well</li>
+          </ul>
+          <a href="https://konexstore.netlify.app/" target="_blank" class="view-project">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  
+  <section class="section" id="certificates">
+    <h2>Certificates</h2>
+    <div class="certificates-grid">
+      <div class="certificate-card">
+        <h3>Tech</h3>
+        <ul>
+          <li>Programming Essentials in Python - Cisco NetAcad</li>
+          <li>Web Development - FNB App Academy</li>
+          <li>Programming Essentials in HTML - Cisco NetAcad</li>
+          <li>Programming Essentials in JavaScript - Cisco NetAcad</li>
+          <li>Programming Essentials in CSS - Cisco NetAcad</li>
+        </ul>
+      </div>
+      
+      <div class="certificate-card">
+        <h3>Admin & Data</h3>
+        <ul>
+          <li>Microsoft Excel - EduCourse</li>
+          <li>Data Entry Introduction - EduCourse</li>
+          <li>Intro to Administration - Alison</li>
+          <li>Outlook Quick Tips - LinkedIn Learning</li>
+          <li>Intro to Human Resources Management - Cursa</li>
+          <li>Core Computer Skills - Avuxeni Academy</li>
+          <li>Knowledge to Admin Assistant - Cursa</li>
+        </ul>
+      </div>
+      
+      <div class="certificate-card">
+        <h3>Sales & Marketing</h3>
+        <ul>
+          <li>Intro to Working in Sales - Alison</li>
+          <li>Complete intro to digital marketing - Cursa</li>
+          <li>Communicating with Confidence - LinkedIn Learning</li>
+        </ul>
+      </div>
+      
+      <div class="certificate-card">
+        <h3>Project Management</h3>
+        <ul>
+          <li>Fundamentals Project Management - Saylor Academy</li>
+          <li>Communicating with Confidence - LinkedIn Learning</li>
+          <li>Microsoft Excel - EduCourse</li>
+          <li>Strategic Project Management - Saylor Academy</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  
+  <section class="section" id="achievements">
+    <h2>Achievements</h2>
+    <div class="achievements-grid">
+      <div class="ach-card">🏆 Multiple Projects Built</div>
+      <div class="ach-card">📊 Strong Data Accuracy</div>
+      <div class="ach-card">📈 Sales Experience</div>
+      <div class="ach-card">💡 Continuous Learner</div>
+      <div class="ach-card">🗂️ Project Manager</div>
+    </div>
+  </section>
+
+  <!-- TOOLS -->
+  
+  <section class="section" id="tools">
+    <h2>Tools I Use</h2>
+    <div class="tools-icons">
+      <img src="images/html.jpg" alt="HTML logo">
+      <img src="images/canva.jpg" alt="Canva logo">
+      <img src="images/gpt.jpg" alt="ChatGPT logo">
+      <img src="images/python.jpg" alt="Python logo">
+      <img src="images/office.jpg" alt="Microsoft Office logo">
+      <img src="images/linkedin.jpg" alt="LinkedIn logo">
+      <img src="images/netli.jpg" alt="Netlify logo">
+      <img src="images/spck.jpg" alt="SPCK Editor logo">
+      <img src="images/space.jpg" alt="Workspace image">
+      <img src="images/notion.jpg" alt="Notion logo">
+      <img src="images/github.jpg" alt="GitHub logo">
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  
+  <footer class="footer">
+    <p class="connect-text">Let’s Connect</p>
+    <div class="social-buttons">
+      <a href="https://www.linkedin.com/in/patience-makhananisa" class="social-btn linkedin" target="_blank">LinkedIn</a>
+      <a href="mailto:patiencemablemakhananisa@gmail.com" class="social-btn email">Email</a>
+      <a href="https://wa.me/27724992575" class="social-btn whatsapp" target="_blank">WhatsApp</a>
+    </div>
+    <p>© 2026 Patience Makhananisa</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
